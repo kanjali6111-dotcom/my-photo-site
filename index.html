@@ -1,18 +1,59 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color: lightyellow; text-align: center; font-family: Arial, sans-serif;">
+<head>
+<style>
+  body {
+    background: linear-gradient(to bottom, #FF9933, #FFFFFF, #138808); /* तिरंगा बैकग्राउंड */
+    text-align: center;
+    font-family: 'Arial Black', sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  .banner {
+    background: white;
+    border: 5px solid #000080; /* अशोक चक्र वाला नीला रंग */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+  }
+  img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #000080;
+    animation: bounce 2s infinite; /* फोटो उछलने वाला जादू */
+  }
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  h1 { color: #000080; text-shadow: 2px 2px #ccc; }
+  .wa-button {
+    background-color: #25D366;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+  }
+</style>
+</head>
+<body>
 
-   <img src="bhai.jpg" alt="मेरी फोटो" style="width: 200px; border-radius: 50%; border: 5px solid red; margin-top: 20px;">
-
-   <h1 style="color: red;">मेरा सपना पूरा होगा</h1>
-
-   <p style="color: blue; font-size: 18px;">
-      मैं कोडिंग सीख रहा हूँ और मैं सफल बनूँगा।
-   </p>
-
-   <a href="https://wa.me/919939373483" style="background-color: #25D366; color: white; padding: 15px 25px; text-decoration: none; font-size: 20px; border-radius: 10px; display: inline-block; margin-top: 20px; font-weight: bold;">
-      मुझसे WhatsApp पर बात करें
-   </a>
+  <div class="banner">
+    <img src="bhai.jpg" alt="मेरा फोटो">
+    <h1>🚩 लहरा दो! 🚩</h1>
+    <h2 style="color: #138808;">मेरा सपना पूरा होगा</h2>
+    <p>मैं कोडिंग सीखकर देश और अपना नाम रोशन करूँगा।</p>
+    
+    <a href="https://wa.me/91919939373483" class="wa-button">
+       📲 मेरा WhatsApp लहरा दो
+    </a>
+  </div>
 
 </body>
 </html>
