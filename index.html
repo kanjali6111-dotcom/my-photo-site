@@ -1,90 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My VIP Digital Profile</title>
+    <title>Sachin Roy VIP Profile</title>
     <style>
         body {
-            background: linear-gradient(135deg, #121212, #1f1c2c);
+            background: #000;
             color: white;
-            font-family: 'Poppins', sans-serif;
+            font-family: Arial, sans-serif;
             text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        .profile-card {
-            margin-top: 50px;
             padding: 20px;
         }
-        .profile-img {bhai.jpg}
+        .container {
+            max-width: 350px;
+            margin: auto;
+            background: #1a1a1a;
+            padding: 25px;
+            border-radius: 20px;
+            border: 1px solid #ffcc33;
+        }
+        .profile-img {
             width: 120px;
             height: 120px;
             border-radius: 50%;
-            border: 4px solid #ff0050; /* Insta Color */
-            box-shadow: 0 0 20px #ff0050;
+            border: 2px solid #ffcc33;
+            margin-bottom: 15px;
         }
-        h1 { font-size: 24px; margin-top: 15px; }
-        .bio { font-style: italic; color: #bbb; }
-        
-        .links-container {
-            margin-top: 30px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .link-btn {
-            width: 80%;
-            max-width: 300px;
-            background: rgba(255, 255, 255, 0.1);
-            color: white;
-            padding: 15px;
+        .btn {
+            display: block;
+            padding: 12px;
             margin: 10px 0;
-            text-decoration: none;
             border-radius: 10px;
-            font-weight: bold;
-            transition: 0.3s;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-        .link-btn:hover {
-            background: #ff0050;
-            transform: scale(1.05);
-        }
-        .vip-tag {
-            background: gold;
+            text-decoration: none;
             color: black;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 12px;
             font-weight: bold;
-            display: inline-block;
-            margin-bottom: 10px;
         }
+        .yt-btn { background: #ff0000; color: white; }
+        .wa-btn { background: #25d366; color: white; }
+        .ig-btn { background: #f39c12; color: white; }
     </style>
 </head>
 <body>
 
-    <div class="profile-card">
-        <div class="vip-tag">OFFICIAL VIP PROFILE</div>
-        <br>
-        <img src="https://via.placeholder.com/150" class="profile-img" alt="Your Photo">
+    <div class="container">
+        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400" class="profile-img">
         
-        <h1>Digital-Shadi-Card sachin roy</h1>
-        <p class="bio">🔥 Digital Creator | Web Developer | Dreamer 🔥</p>
+        <h1>sachin roy</h1> 
+        <p>डिजिटल क्रिएटर और वेब डिजाइनर</p>
 
-        <div class="links-container">
-            <a href="https://instagram.com/आपका-नाम" class="sachin kumar link-btn">📸 Instagram</a>
-            <a href="https://youtube.com/@आपका-चैनल @zakfilms2k" class="link-btn">📺 YouTube</a>
-            <a <a href="https://wa.me/919939373483?text=नमस्ते-भाई-मुझे-ऐसी-वेबसाइट-बनवानी-है" class="link-btn" style="background: #25d366;">
-    💬 WhatsApp Me
-            </a>
+        <div class="links">
+            <a href="https://youtube.com/@आपका_@zakfilms2k" class="btn yt-btn">📺 मेरा यूट्यूब चैनल</a>
             
-            <a href="mailto:आपका-ईमेल"https://Digital-Shadi-Card.github.io/wedding-card/) class="link-btn">📧 Contact Email</a>
+            <a href="https://wa.me/919939373483?text=नमस्ते-भाई-मुझे-वेबसाइट-बनवानी-है" class="btn wa-btn">🟢 व्हाट्सएप पर बात करें</a>
+            
+            <a href="https://instagram.com/sachin roy" class="btn ig-btn">📸 इंस्टाग्राम फॉलो करें</a>
         </div>
+        
+        <p style="font-size: 10px; margin-top: 20px;">Maded by Digital-Shadi-Card</p>
     </div>
-
-    <p style="margin-top: 50px; font-size: 12px; color: #555;">Created by Your Name</p>
 
 </body>
 </html>
-
